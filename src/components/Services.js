@@ -40,7 +40,11 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* text & image */}
-          <div
+          <motion.div
+            variants={fadeIn("right", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ oncuechange: false, amount: 0.3 }}
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat
           mix-blend-lighten mb-12 lg:mb-0">
             <h2 className="h2 text-accent mb-6">What i do .</h2>
@@ -49,9 +53,14 @@ const Services = () => {
               experience
             </h3>
             <button className="btn btn-sm">See my work</button>
-          </div>
+          </motion.div>
           {/* services */}
-          <div className="flex-1">
+          <motion.div
+            variants={fadeIn("left", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ oncuechange: false, amount: 0.3 }}
+            className="flex-1">
             {services.map((service, index) => {
               //destructure service
               const { name, description, link } = service;
@@ -83,7 +92,7 @@ const Services = () => {
                 </div>
               );
             })}
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
