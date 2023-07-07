@@ -3,7 +3,12 @@ import React from "react";
 //images
 import Image from "../assets/avatar.svg";
 //icons
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedinIn,
+  FaInstagramSquare,
+  FaMediumM,
+} from "react-icons/fa";
 //type animation
 
 import { TypeAnimation } from "react-type-animation";
@@ -28,8 +33,9 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-[55px] font-bold leading-[0.8] lg:text-[110px]">
-              toretto <span>Yvan</span>
+              className="text-[55px] font-bold leading-[0.8] lg:text-[90px]">
+              Greetings Mavericks!
+              {/* <span></span> */}
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.3)}
@@ -62,7 +68,8 @@ const Banner = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0">
-              lorem ,yvan unyangabe a hkla; hdhajh jjhhsarew ajaakjdfjka jhahakj{" "}
+              Fueling my insatiable tech obsession, one exhilarating project at
+              a time as a dedicated Tech Enthusiast.{" "}
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -84,16 +91,20 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto
                         lg:mx-0">
-              <a href="#">
+              <a href="https://github.com/thetoretto">
                 <FaGithub />
               </a>
               {/* -------------------------- */}
-              <a href="#">
-                <FaGithub />
+              <a href="https://www.linkedin.com/in/munyangabe-yvan-536b81150/">
+                <FaLinkedinIn />
               </a>
               {/* -------------------------- */}
-              <a href="#">
-                <FaGithub />
+              <a href="https://www.instagram.com/n.vv.y/">
+                <FaInstagramSquare />
+              </a>
+              {/* -------------------------- */}
+              <a href="https://medium.com/@munyangabeY">
+                <FaMediumM />
               </a>
             </motion.div>
           </div>
