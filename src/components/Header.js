@@ -9,10 +9,12 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           {/* logo */}
-          <a href="#">
+          <a href="home">
             <img src={logo1} alt="" />
           </a>
-          <button className="btn btn-sm">work with me</button>
+          <button href="Contact" className="btn btn-sm">
+            work with me
+          </button>
         </div>
       </div>
     </header>

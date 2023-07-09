@@ -5,6 +5,10 @@ import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
 
+//icons
+
+import { FaLinkedin, FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
+
 const Contact = () => {
   return (
     <section className="py-16 lg:section" id="Contact">
@@ -19,14 +23,33 @@ const Contact = () => {
             className="flex-1">
             <div>
               <h2
-                className="text-x1 uppercase text-accent font-medium mb-2
+                className="text-x1 uppercase font-medium mb-2
                tracking-wide">
                 Get in touch
               </h2>
-              <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
+              <h2 className="text-[45px] lg:text-[90px] leading-none mb-12  text-accent ">
                 Let's work <br /> together !
               </h2>
             </div>
+            <motion.div
+              variants={fadeIn("up", 0.7)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex text-[40px] gap-x-8 max-w-max mx-auto
+                        lg:mx-0">
+              <a href="https://www.linkedin.com/in/munyangabe-yvan-536b81150/">
+                <FaLinkedin />
+              </a>
+              {/* -------------------------- */}
+              <a href="https://www.instagram.com/n.vv.y/">
+                <FaInstagramSquare />
+              </a>
+              {/* -------------------------- */}
+              <a href="https://medium.com/@munyangabeY">
+                <FaTwitterSquare />
+              </a>
+            </motion.div>
           </motion.div>
           {/* form  */}
           <motion.form

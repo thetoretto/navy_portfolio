@@ -34,9 +34,9 @@ const Work = () => {
               <button className="btn btn-sm">View all projects</button>
             </div>
             {/* Image  */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-x1">
+            <div className="group relative overflow-hidden border-2 border-white/100 rounded-x1">
               {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <div className="group-hover:bg-white/30 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -45,11 +45,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design </span>
+                <span className="text-gradient">script writer </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white">Python master </span>
               </div>
             </div>
           </motion.div>
@@ -60,9 +60,11 @@ const Work = () => {
             viewport={{ oncuechange: false, amount: 0.3 }}
             className="flex-1 flex flex-col gap-y-10">
             {/* Image 2 */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-x1">
+            <div className="group relative overflow-hidden border-2 border-white/100 rounded-x1">
               {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <a href="https://medium.com/@munyangabeY">
+                <div className="group-hover:bg-white/30 w-full h-full absolute z-40 transition-all duration-300"></div>
+              </a>
               {/* img */}
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -71,19 +73,19 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design </span>
+                <span className="text-gradient">Researcher </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white">blogging </span>
               </div>
             </div>
 
             {/* Image 3 */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-x1">
+            <div className="group relative overflow-hidden border-2 border-white/100 rounded-x1">
               {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
+              <div className="group-hover:bg-/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+
               <img
                 className="group-hover:scale-125 transition-all duration-500"
                 src={Img3}
