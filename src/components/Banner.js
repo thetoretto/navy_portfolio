@@ -33,7 +33,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-[55px] font-bold leading-[0.8] lg:text-[90px]">
+              className="text-[40px] font-bold leading-[0.8] lg:text-[80px]">
               Greetings Mavericks!
               {/* <span></span> */}
             </motion.h1>
@@ -42,7 +42,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[36px] lg:text-[60px] font-secondary
+              className="mb-8 text-[40px] lg:text-[60px] font-secondary
             font-semibold uppercase leading-[1]">
               <span className="mr-4"> I am a</span>
               <TypeAnimation
@@ -67,7 +67,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0">
+              className="mb-6 max-w-lg mx-auto lg:mx-1">
               Fueling my insatiable tech obsession, one exhilarating project at
               a time as a dedicated Tech Enthusiast.{" "}
             </motion.p>

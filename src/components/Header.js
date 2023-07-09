@@ -1,7 +1,7 @@
 import React from "react";
 
 //images
-import logo1 from "../assets/logo1.svg";
+import logo1 from "../assets/logo1.png";
 
 const Header = () => {
   return (
