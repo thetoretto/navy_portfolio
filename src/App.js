@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <div style={{ backgroundColor: "#009966" }}>
+    <div style={{ backgroundColor: "#009e69" }}>
       <Header />
       <Banner />
       <Nav />

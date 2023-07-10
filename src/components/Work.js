@@ -34,7 +34,7 @@ const Work = () => {
               <button className="btn btn-sm">View all projects</button>
             </div>
             {/* Image  */}
-            <div className="group relative overflow-hidden border-2 border-white/100 rounded-x1">
+            <div className="group relative overflow-hidden border-2 border-#003366 rounded-x1">
               {/* overlay */}
               <div className="group-hover:bg-white/30 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
@@ -93,11 +93,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design </span>
+                <span className="text-gradient">product owner</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white">ounder </span>
               </div>
             </div>
           </motion.div>
