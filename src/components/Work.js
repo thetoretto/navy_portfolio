@@ -34,7 +34,7 @@ const Work = () => {
               <button className="btn btn-sm">View all projects</button>
             </div>
             {/* Image  */}
-            <div className="group relative overflow-hidden border-2 border-#003366 rounded-x1">
+            <div className="group relative overflow-hidden  rounded-x1">
               {/* overlay */}
               <div className="group-hover:bg-white/30 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
@@ -60,7 +60,7 @@ const Work = () => {
             viewport={{ oncuechange: false, amount: 0.3 }}
             className="flex-1 flex flex-col gap-y-10">
             {/* Image 2 */}
-            <div className="group relative overflow-hidden border-2 border-white/100 rounded-x1">
+            <div className="group relative overflow-hidden  rounded-x1">
               {/* overlay */}
               <a href="https://medium.com/@munyangabeY">
                 <div className="group-hover:bg-white/30 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -82,9 +82,9 @@ const Work = () => {
             </div>
 
             {/* Image 3 */}
-            <div className="group relative overflow-hidden border-2 border-white/100 rounded-x1">
+            <div className="group relative overflow-hidden  rounded-x1">
               {/* overlay */}
-              <div className="group-hover:bg-/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <div className="group-hover:bg-white/30 w-full h-full absolute z-40 transition-all duration-300"></div>
 
               <img
                 className="group-hover:scale-125 transition-all duration-500"
