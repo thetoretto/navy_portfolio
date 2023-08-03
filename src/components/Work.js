@@ -22,6 +22,7 @@ const Work = () => {
             className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
             {/* text  */}
             <div>
+
               <h2 className="h2 leading-tight text-accent">
                 my Latest <br />
                 Work.
@@ -31,7 +32,9 @@ const Work = () => {
                 fugiat nostrud anim. Quis duis voluptate aliqua pariatur nisi
                 conses
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              {/* <button className="btn btn-sm">/button> */}
+              <button href="Contact" className="btn btn-sm">
+                View all projects</button>
             </div>
             {/* Image  */}
             <div className="group relative overflow-hidden  rounded-x1">
@@ -93,11 +96,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">product owner</span>
+                <span className="text-gradient">product Fowner</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">ounder </span>
+                <span className="text-3xl text-white">Founder </span>
               </div>
             </div>
           </motion.div>
